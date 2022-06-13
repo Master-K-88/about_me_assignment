@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration_page.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="topnav">
+                <li>
+                    <a href="about_page.html">About Me</a>
+                </li>
+                <li>
+                    <a href="about_page.html#contact_me">Contact</a>
+                </li>
+                <li>
+                    <a class="active" href="registration_page.html">Registration</a>
+                </li>
+                <li>
+                    <a href="/Users/user/Desktop/ZuriAssigment/HTML&CSS/login_page.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <h1 id="contact_me">
+            Register here
+        </h1>
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="Select Your Gender">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="yourcountry" placeholder="Your Country..">
+            <!-- <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select> -->
+
+            <label for="state">State/Province</label>
+            <input type="text" id="state" name="stateProvince" placeholder="Your State or Province..">
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="Email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw"><b>Confirm Password</b></label>
+            <input type="confirmpassword" placeholder="Enter Password" name="conpsw" required>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <footer>&copy; Prof_K in Zuri Training 2022</footer>
+</body>
+
+</html>
